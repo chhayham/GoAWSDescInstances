@@ -1,0 +1,331 @@
+{
+  Reservations: [
+    {
+      Instances: [{
+          AmiLaunchIndex: 0,
+          Architecture: "x86_64",
+          CapacityReservationSpecification: {
+            CapacityReservationPreference: "open"
+          },
+          ClientToken: "",
+          CpuOptions: {
+            CoreCount: 1,
+            ThreadsPerCore: 1
+          },
+          EbsOptimized: false,
+          EnaSupport: true,
+          HibernationOptions: {
+            Configured: false
+          },
+          Hypervisor: "xen",
+          ImageId: "ami-035be7bafff33b6b6",
+          InstanceId: "i-0deed6d3834d9139a",
+          InstanceType: "t2.micro",
+          KeyName: "chhayham_test",
+          LaunchTime: 2019-02-20 21:26:51 +0000 UTC,
+          Monitoring: {
+            State: "disabled"
+          },
+          Placement: {
+            AvailabilityZone: "us-east-1c",
+            GroupName: "",
+            Tenancy: "default"
+          },
+          PrivateDnsName: "",
+          PublicDnsName: "",
+          RootDeviceName: "/dev/xvda",
+          RootDeviceType: "ebs",
+          State: {
+            Code: 48,
+            Name: "terminated"
+          },
+          StateReason: {
+            Code: "Client.UserInitiatedShutdown",
+            Message: "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          StateTransitionReason: "User initiated (2019-02-20 21:34:56 GMT)",
+          Tags: [{
+              Key: "Owner",
+              Value: "chhayham"
+            }],
+          VirtualizationType: "hvm"
+        }],
+      OwnerId: "632949179373",
+      ReservationId: "r-009733cb7704b071b"
+    },
+    {
+      Instances: [{
+          AmiLaunchIndex: 0,
+          Architecture: "x86_64",
+          CapacityReservationSpecification: {
+            CapacityReservationPreference: "open"
+          },
+          ClientToken: "",
+          CpuOptions: {
+            CoreCount: 1,
+            ThreadsPerCore: 1
+          },
+          EbsOptimized: false,
+          EnaSupport: true,
+          HibernationOptions: {
+            Configured: false
+          },
+          Hypervisor: "xen",
+          ImageId: "ami-035be7bafff33b6b6",
+          InstanceId: "i-0d3111610833d1a9b",
+          InstanceType: "t2.micro",
+          KeyName: "chhayham_test",
+          LaunchTime: 2019-02-20 23:58:18 +0000 UTC,
+          Monitoring: {
+            State: "disabled"
+          },
+          Placement: {
+            AvailabilityZone: "us-east-1c",
+            GroupName: "",
+            Tenancy: "default"
+          },
+          PrivateDnsName: "",
+          PublicDnsName: "",
+          RootDeviceName: "/dev/xvda",
+          RootDeviceType: "ebs",
+          State: {
+            Code: 48,
+            Name: "terminated"
+          },
+          StateReason: {
+            Code: "Client.UserInitiatedShutdown",
+            Message: "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          StateTransitionReason: "User initiated (2019-02-21 02:02:27 GMT)",
+          Tags: [{
+              Key: "Owner",
+              Value: "Mine"
+            }],
+          VirtualizationType: "hvm"
+        }],
+      OwnerId: "632949179373",
+      ReservationId: "r-0973e78f3ab2648e1"
+    },
+    {
+      Instances: [{
+          AmiLaunchIndex: 0,
+          Architecture: "x86_64",
+          CapacityReservationSpecification: {
+            CapacityReservationPreference: "open"
+          },
+          ClientToken: "",
+          CpuOptions: {
+            CoreCount: 1,
+            ThreadsPerCore: 1
+          },
+          EbsOptimized: false,
+          EnaSupport: true,
+          HibernationOptions: {
+            Configured: false
+          },
+          Hypervisor: "xen",
+          ImageId: "ami-035be7bafff33b6b6",
+          InstanceId: "i-0aafc67fe1806fd38",
+          InstanceType: "t2.micro",
+          KeyName: "chhayham_test",
+          LaunchTime: 2019-02-20 21:39:57 +0000 UTC,
+          Monitoring: {
+            State: "disabled"
+          },
+          Placement: {
+            AvailabilityZone: "us-east-1c",
+            GroupName: "",
+            Tenancy: "default"
+          },
+          PrivateDnsName: "",
+          PublicDnsName: "",
+          RootDeviceName: "/dev/xvda",
+          RootDeviceType: "ebs",
+          State: {
+            Code: 48,
+            Name: "terminated"
+          },
+          StateReason: {
+            Code: "Client.UserInitiatedShutdown",
+            Message: "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          StateTransitionReason: "User initiated (2019-02-20 21:40:53 GMT)",
+          Tags: [{
+              Key: "Name",
+              Value: "notag"
+            }],
+          VirtualizationType: "hvm"
+        }],
+      OwnerId: "632949179373",
+      ReservationId: "r-0c14918f9db3ce860"
+    },
+    {
+      Instances: [{
+          AmiLaunchIndex: 0,
+          Architecture: "x86_64",
+          CapacityReservationSpecification: {
+            CapacityReservationPreference: "open"
+          },
+          ClientToken: "",
+          CpuOptions: {
+            CoreCount: 1,
+            ThreadsPerCore: 1
+          },
+          EbsOptimized: false,
+          EnaSupport: true,
+          HibernationOptions: {
+            Configured: false
+          },
+          Hypervisor: "xen",
+          ImageId: "ami-035be7bafff33b6b6",
+          InstanceId: "i-0db4011f6d96fe0d6",
+          InstanceType: "t2.micro",
+          KeyName: "chhayham_test",
+          LaunchTime: 2019-02-21 03:26:23 +0000 UTC,
+          Monitoring: {
+            State: "disabled"
+          },
+          Placement: {
+            AvailabilityZone: "us-east-1c",
+            GroupName: "",
+            Tenancy: "default"
+          },
+          PrivateDnsName: "",
+          PublicDnsName: "",
+          RootDeviceName: "/dev/xvda",
+          RootDeviceType: "ebs",
+          State: {
+            Code: 48,
+            Name: "terminated"
+          },
+          StateReason: {
+            Code: "Client.UserInitiatedShutdown",
+            Message: "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          StateTransitionReason: "User initiated (2019-02-21 03:27:14 GMT)",
+          Tags: [{
+              Key: "Owner",
+              Value: "Zebra"
+            }],
+          VirtualizationType: "hvm"
+        }],
+      OwnerId: "632949179373",
+      ReservationId: "r-004b41a046b14b24c"
+    },
+    {
+      Instances: [{
+          AmiLaunchIndex: 0,
+          Architecture: "x86_64",
+          CapacityReservationSpecification: {
+            CapacityReservationPreference: "open"
+          },
+          ClientToken: "",
+          CpuOptions: {
+            CoreCount: 1,
+            ThreadsPerCore: 1
+          },
+          EbsOptimized: false,
+          EnaSupport: true,
+          HibernationOptions: {
+            Configured: false
+          },
+          Hypervisor: "xen",
+          ImageId: "ami-035be7bafff33b6b6",
+          InstanceId: "i-054f20af0b0511d93",
+          InstanceType: "t2.micro",
+          KeyName: "chhayham_test",
+          LaunchTime: 2019-02-21 03:28:38 +0000 UTC,
+          Monitoring: {
+            State: "disabled"
+          },
+          Placement: {
+            AvailabilityZone: "us-east-1c",
+            GroupName: "",
+            Tenancy: "default"
+          },
+          PrivateDnsName: "",
+          PublicDnsName: "",
+          RootDeviceName: "/dev/xvda",
+          RootDeviceType: "ebs",
+          State: {
+            Code: 48,
+            Name: "terminated"
+          },
+          StateReason: {
+            Code: "Client.UserInitiatedShutdown",
+            Message: "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          StateTransitionReason: "User initiated (2019-02-21 03:29:24 GMT)",
+          Tags: [{
+              Key: "Owner",
+              Value: "Seattle"
+            }],
+          VirtualizationType: "hvm"
+        }],
+      OwnerId: "632949179373",
+      ReservationId: "r-01c3c4298091534b6"
+    },
+    {
+      Instances: [{
+          AmiLaunchIndex: 0,
+          Architecture: "x86_64",
+          CapacityReservationSpecification: {
+            CapacityReservationPreference: "open"
+          },
+          ClientToken: "",
+          CpuOptions: {
+            CoreCount: 1,
+            ThreadsPerCore: 1
+          },
+          EbsOptimized: false,
+          EnaSupport: true,
+          HibernationOptions: {
+            Configured: false
+          },
+          Hypervisor: "xen",
+          ImageId: "ami-035be7bafff33b6b6",
+          InstanceId: "i-0030db52c2bc90848",
+          InstanceType: "t2.micro",
+          KeyName: "chhayham_test",
+          LaunchTime: 2019-02-21 02:02:17 +0000 UTC,
+          Monitoring: {
+            State: "disabled"
+          },
+          Placement: {
+            AvailabilityZone: "us-east-1c",
+            GroupName: "",
+            Tenancy: "default"
+          },
+          PrivateDnsName: "",
+          PublicDnsName: "",
+          RootDeviceName: "/dev/xvda",
+          RootDeviceType: "ebs",
+          State: {
+            Code: 48,
+            Name: "terminated"
+          },
+          StateReason: {
+            Code: "Client.UserInitiatedShutdown",
+            Message: "Client.UserInitiatedShutdown: User initiated shutdown"
+          },
+          StateTransitionReason: "User initiated (2019-02-21 02:03:20 GMT)",
+          Tags: [{
+              Key: "Owner",
+              Value: ""
+            }],
+          VirtualizationType: "hvm"
+        }],
+      OwnerId: "632949179373",
+      ReservationId: "r-0e1446dc86251f2ed"
+    }
+  ]
+}
+
+ id			instance type	launch time			tag-key	tag-value	
+ ---			---		---				---	---		
+ i-0deed6d3834d9139a	t2.micro	2019-02-20 21:26:51 +0000 UTC	Owner	chhayham	
+ i-0d3111610833d1a9b	t2.micro	2019-02-20 23:58:18 +0000 UTC	Owner	Mine		
+ i-0aafc67fe1806fd38	t2.micro	2019-02-20 21:39:57 +0000 UTC	Name	notag		
+ i-0db4011f6d96fe0d6	t2.micro	2019-02-21 03:26:23 +0000 UTC	Owner	Zebra		
+ i-054f20af0b0511d93	t2.micro	2019-02-21 03:28:38 +0000 UTC	Owner	Seattle		
+ i-0030db52c2bc90848	t2.micro	2019-02-21 02:02:17 +0000 UTC	Owner	unknown
