@@ -27,9 +27,9 @@ func main() {
 	input := &ec2.DescribeInstancesInput{
 		Filters: []*ec2.Filter{
 			{
-				Name: fil,
+				Name: aws.String(*fil),
 				Values: []*string{
-					value,
+					aws.String(*value),
 				},
 			},
 		},
